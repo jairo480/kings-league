@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.menu.menuPantalla" >
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="82dp"
+                android:layout_height="101dp"
+                android:onClick="chamos"
+                android:scaleType="centerInside"
+                app:srcCompat="@mipmap/chamos"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="101dp"
+                android:layout_height="101dp"
+                android:onClick="persas"
+                android:scaleType="centerInside"
+                app:srcCompat="@mipmap/persas"
+                tools:layout_editor_absoluteX="107dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="82dp"
+                android:layout_height="101dp"
+                android:onClick="titan"
+                android:scaleType="centerInside"
+                app:srcCompat="@mipmap/real_titan"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="101dp"
+                android:layout_height="101dp"
+                android:onClick="parceros"
+                android:scaleType="centerInside"
+                app:srcCompat="@mipmap/atletico_parceros"
+                tools:layout_editor_absoluteX="107dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="82dp"
+                android:layout_height="101dp"
+                android:onClick="muchachos"
+                android:scaleType="centerInside"
+                app:srcCompat="@mipmap/muchachos"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="101dp"
+                android:layout_height="101dp"
+                android:onClick="aliens"
+                android:scaleType="centerInside"
+                app:srcCompat="@mipmap/los_aliens"
+                tools:layout_editor_absoluteX="107dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="101dp"
+                android:layout_height="101dp"
+                android:onClick="olimpo"
+                android:scaleType="centerInside"
+                app:srcCompat="@mipmap/olimpo_united"
+                tools:layout_editor_absoluteX="107dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="101dp"
+                android:layout_height="101dp"
+                android:onClick="peluche_caligari"
+                android:scaleType="centerInside"
+                app:srcCompat="@mipmap/peluche_caligari"
+                tools:layout_editor_absoluteX="107dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="101dp"
+                android:layout_height="101dp"
+                android:onClick="cuervos"
+                android:scaleType="centerInside"
+                app:srcCompat="@mipmap/cuervos"
+                tools:layout_editor_absoluteX="107dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="101dp"
+                android:layout_height="101dp"
+                android:onClick="raniza"
+                android:scaleType="centerInside"
+                app:srcCompat="@mipmap/raniza"
+                tools:layout_editor_absoluteX="107dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="101dp"
+                android:layout_height="101dp"
+                android:onClick="west"
+                android:scaleType="centerInside"
+                app:srcCompat="@mipmap/west"
+                tools:layout_editor_absoluteX="107dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="101dp"
+                android:layout_height="101dp"
+                android:onClick="galacticos"
+                android:scaleType="centerInside"
+                app:srcCompat="@mipmap/galacticos"
+                tools:layout_editor_absoluteX="107dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
